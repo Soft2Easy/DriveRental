@@ -1,22 +1,43 @@
 package org.driveRental;
 
+/**
+ * Represents the specifications of a vehicle in the rental system.
+ */
 public class Specifications {
-    private String seatingCapacity;
-    private String doors;
+    private int seatingCapacity;
+    private int doors;
     private String transmission;
     private String mpgCity;
-    private String mpgHighway;
-    private String kmPerLitreCity;
-    private String kmPerLitreHighway;
-    private String fullTankCapacity;
-    private String luggageCapacitySuitable;
-    private String towingCapacity;
+    private int mpgHighway;
+    private double kmPerLitreCity;
+    private double kmPerLitreHighway;
+    private double fullTankCapacity;
+    private int luggageCapacitySuitable;
+    private int towingCapacity;
 
-    public String getSeatingCapacity() {
+    public Specifications(int seatingCapacity, int doors, String transmission, String mpgCity,
+                          int mpgHighway, double kmPerLitreCity, double kmPerLitreHighway,
+                          double fullTankCapacity, int luggageCapacitySuitable, int towingCapacity) {
+        this.seatingCapacity = seatingCapacity;
+        this.doors = doors;
+        this.transmission = transmission;
+        this.mpgCity = mpgCity;
+        this.mpgHighway = mpgHighway;
+        this.kmPerLitreCity = kmPerLitreCity;
+        this.kmPerLitreHighway = kmPerLitreHighway;
+        this.fullTankCapacity = fullTankCapacity;
+        this.luggageCapacitySuitable = luggageCapacitySuitable;
+        this.towingCapacity = towingCapacity;
+    }
+
+    public Specifications() {
+    }
+
+    public int getSeatingCapacity() {
         return seatingCapacity;
     }
 
-    public void setSeatingCapacity(String seatingCapacity) {
+    public void setSeatingCapacity(int seatingCapacity) {
         this.seatingCapacity = seatingCapacity;
     }
 
@@ -28,11 +49,11 @@ public class Specifications {
         this.transmission = transmission;
     }
 
-    public String getDoors() {
+    public int getDoors() {
         return doors;
     }
 
-    public void setDoors(String doors) {
+    public void setDoors(int doors) {
         this.doors = doors;
     }
 
@@ -44,51 +65,51 @@ public class Specifications {
         this.mpgCity = mpgCity;
     }
 
-    public String getMpgHighway() {
+    public int getMpgHighway() {
         return mpgHighway;
     }
 
-    public void setMpgHighway(String mpgHighway) {
+    public void setMpgHighway(int mpgHighway) {
         this.mpgHighway = mpgHighway;
     }
 
-    public String getKmPerLitreCity() {
+    public double getKmPerLitreCity() {
         return kmPerLitreCity;
     }
 
-    public void setKmPerLitreCity(String kmPerLitreCity) {
+    public void setKmPerLitreCity(int kmPerLitreCity) {
         this.kmPerLitreCity = kmPerLitreCity;
     }
 
-    public String getKmPerLitreHighway() {
+    public double getKmPerLitreHighway() {
         return kmPerLitreHighway;
     }
 
-    public void setKmPerLitreHighway(String kmPerLitreHighway) {
+    public void setKmPerLitreHighway(int kmPerLitreHighway) {
         this.kmPerLitreHighway = kmPerLitreHighway;
     }
 
-    public String getFullTankCapacity() {
+    public double getFullTankCapacity() {
         return fullTankCapacity;
     }
 
-    public void setFullTankCapacity(String fullTankCapacity) {
+    public void setFullTankCapacity(int fullTankCapacity) {
         this.fullTankCapacity = fullTankCapacity;
     }
 
-    public String getLuggageCapacitySuitable() {
+    public int getLuggageCapacitySuitable() {
         return luggageCapacitySuitable;
     }
 
-    public void setLuggageCapacitySuitable(String luggageCapacitySuitable) {
+    public void setLuggageCapacitySuitable(int luggageCapacitySuitable) {
         this.luggageCapacitySuitable = luggageCapacitySuitable;
     }
 
-    public String getTowingCapacity() {
+    public int getTowingCapacity() {
         return towingCapacity;
     }
 
-    public void setTowingCapacity(String towingCapacity) {
+    public void setTowingCapacity(int towingCapacity) {
         this.towingCapacity = towingCapacity;
     }
 

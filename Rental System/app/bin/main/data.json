@@ -1,0 +1,272 @@
+{
+  "rental_system": {
+    "inventory": [
+      {
+        "vehicle_id": "ECO123",
+        "type": "Economy",
+        "category": "Car",
+        "make": "Toyota",
+        "model": "Yaris",
+        "year": 2023,
+        "license_plate": "ABC123",
+        "vin": "1HGBH41JXMN109186",
+        "location": {
+          "lot_id": "L001",
+          "address": "123 Main St, salton, Johannesburg",
+          "is_available": true
+        },
+        "pricing": {
+          "rate_per_day": 647.50,
+          "rate_per_week": 3885.00,
+          "rate_per_month": 13875.00,
+          "currency": "ZAR",
+          "cost_per_extra_mile": 4.63,
+          "cost_per_extra_km": 2.88,
+          "security_deposit": 3700.00
+        },
+        "specifications": {
+          "seating_capacity": 5,
+          "doors": 4,
+          "fuel_type": "Petrol",
+          "transmission": "Automatic",
+          "mpg_city": 33,
+          "mpg_highway": 40,
+          "km_per_liter_city": 14.0,
+          "km_per_liter_highway": 17.0,
+          "fuel_tank_capacity_l": 40,
+          "luggage_capacity_suitcases": 2
+        },
+        "features": [
+          "Bluetooth",
+          "Backup Camera",
+          "Air Conditioning",
+          "Cruise Control"
+        ],
+        "rental_status": "available"
+      },
+      {
+        "vehicle_id": "SUV456",
+        "type": "SUV",
+        "category": "Car",
+        "make": "Honda",
+        "model": "CR-V",
+        "year": 2024,
+        "license_plate": "SUV789",
+        "vin": "2FMDK3GC5DBA12345",
+        "location": {
+          "lot_id": "L001",
+          "address": "123 Main St, Sandton, Johannesburg",
+          "is_available": true
+        },
+        "pricing": {
+          "rate_per_day": 1202.50,
+          "rate_per_week": 7030.00,
+          "rate_per_month": 24975.00,
+          "currency": "ZAR",
+          "cost_per_extra_mile": 5.55,
+          "cost_per_extra_km": 3.45,
+          "security_deposit": 5550.00
+        },
+        "specifications": {
+          "seating_capacity": 5,
+          "doors": 4,
+          "fuel_type": "Petrol",
+          "transmission": "Automatic",
+          "mpg_city": 28,
+          "mpg_highway": 34,
+          "km_per_liter_city": 11.9,
+          "km_per_liter_highway": 14.5,
+          "fuel_tank_capacity_l": 57,
+          "luggage_capacity_suitcases": 4,
+          "towing_capacity_kg": 680
+        },
+        "features": [
+          "Apple CarPlay",
+          "Android Auto",
+          "AWD",
+          "Sunroof",
+          "Lane Assist"
+        ],
+        "rental_status": "available"
+      },
+      {
+        "vehicle_id": "LUX789",
+        "type": "Luxury",
+        "category": "Car",
+        "make": "BMW",
+        "model": "5 Series",
+        "year": 2023,
+        "license_plate": "LUX101",
+        "vin": "WBA53BJ050C789012",
+        "location": {
+          "lot_id": "L002",
+          "address": "456 Oak Ave, Century City, Cape Town",
+          "is_available": false
+        },
+        "pricing": {
+          "rate_per_day": 2220.00,
+          "rate_per_week": 12950.00,
+          "rate_per_month": 46250.00,
+          "currency": "ZAR",
+          "cost_per_extra_mile": 8.33,
+          "cost_per_extra_km": 5.18,
+          "security_deposit": 9250.00
+        },
+        "specifications": {
+          "seating_capacity": 5,
+          "doors": 4,
+          "fuel_type": "Petrol",
+          "transmission": "Automatic",
+          "mpg_city": 23,
+          "mpg_highway": 32,
+          "km_per_liter_city": 9.8,
+          "km_per_liter_highway": 13.6,
+          "fuel_tank_capacity_l": 68,
+          "luggage_capacity_suitcases": 3,
+          "horsepower": 335
+        },
+        "features": [
+          "Leather Seats",
+          "Heated Seats",
+          "Navigation System",
+          "Premium Sound System",
+          "Panoramic Roof"
+        ],
+        "rental_status": "rented"
+      },
+      {
+        "vehicle_id": "TRK012",
+        "type": "Pickup Truck",
+        "category": "Truck",
+        "make": "Toyota",
+        "model": "Hilux",
+        "year": 2023,
+        "license_plate": "TRK112",
+        "vin": "1FTFW1E5XJFA98765",
+        "location": {
+          "lot_id": "L003",
+          "address": "789 Industrial Rd, Rosslyn, Pretoria",
+          "is_available": true
+        },
+        "pricing": {
+          "rate_per_day": 1572.50,
+          "rate_per_week": 9250.00,
+          "rate_per_month": 33300.00,
+          "currency": "ZAR",
+          "cost_per_extra_mile": 7.40,
+          "cost_per_extra_km": 4.60,
+          "security_deposit": 7400.00
+        },
+        "specifications": {
+          "seating_capacity": 5,
+          "doors": 4,
+          "fuel_type": "Diesel",
+          "transmission": "Automatic",
+          "mpg_city": 20,
+          "mpg_highway": 26,
+          "km_per_liter_city": 8.5,
+          "km_per_liter_highway": 11.1,
+          "fuel_tank_capacity_l": 80,
+          "bed_length_m": 2.4,
+          "towing_capacity_kg": 3500,
+          "payload_capacity_kg": 1100
+        },
+        "features": [
+          "4x4",
+          "Towing Package",
+          "Backup Camera",
+          "Touchscreen Infotainment"
+        ],
+        "rental_status": "available"
+      },
+      {
+        "vehicle_id": "MVN345",
+        "type": "Minivan",
+        "category": "Van",
+        "make": "Toyota",
+        "model": "Quantum",
+        "year": 2023,
+        "license_plate": "MVN345",
+        "vin": "2C4RC1BG9JR123456",
+        "location": {
+          "lot_id": "L001",
+          "address": "123 Main St, Sandton, Johannesburg",
+          "is_available": true
+        },
+        "pricing": {
+          "rate_per_day": 1295.00,
+          "rate_per_week": 7770.00,
+          "rate_per_month": 27750.00,
+          "currency": "ZAR",
+          "cost_per_extra_mile": 6.48,
+          "cost_per_extra_km": 4.03,
+          "security_deposit": 6475.00
+        },
+        "specifications": {
+          "seating_capacity": 7,
+          "doors": 5,
+          "fuel_type": "Diesel",
+          "transmission": "Automatic",
+          "mpg_city": 25,
+          "mpg_highway": 30,
+          "km_per_liter_city": 10.6,
+          "km_per_liter_highway": 12.8,
+          "fuel_tank_capacity_l": 65,
+          "luggage_capacity_suitcases": 5
+        },
+        "features": [
+          "Sliding Doors",
+          "Air Conditioning",
+          "Bluetooth",
+          "Multiple Seating Configurations"
+        ],
+        "rental_status": "available"
+      },
+      {
+        "vehicle_id": "CGO678",
+        "type": "Cargo Van",
+        "category": "Truck",
+        "make": "Toyota",
+        "model": "Hiace",
+        "year": 2022,
+        "license_plate": "CGO789",
+        "vin": "WD3PE8CC3J5890123",
+        "location": {
+          "lot_id": "L003",
+          "address": "789 Industrial Rd, Rosslyn, Pretoria",
+          "is_available": true
+        },
+        "pricing": {
+          "rate_per_day": 1757.50,
+          "rate_per_week": 10175.00,
+          "rate_per_month": 35150.00,
+          "currency": "ZAR",
+          "cost_per_extra_mile": 7.03,
+          "cost_per_extra_km": 4.37,
+          "security_deposit": 9250.00
+        },
+        "specifications": {
+          "seating_capacity": 2,
+          "doors": 3,
+          "fuel_type": "Diesel",
+          "transmission": "Manual",
+          "mpg_city": 18,
+          "mpg_highway": 24,
+          "km_per_liter_city": 7.7,
+          "km_per_liter_highway": 10.2,
+          "fuel_tank_capacity_l": 70,
+          "cargo_volume_cubic_m": 12.5,
+          "max_load_height_cm": 190,
+          "max_load_length_cm": 340
+        },
+        "features": [
+          "Load Securing Rings",
+          "Rear View Camera",
+          "Bluetooth",
+          "High Roof"
+        ],
+        "rental_status": "available"
+      }
+    ]
+  }
+}

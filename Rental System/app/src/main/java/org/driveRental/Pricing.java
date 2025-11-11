@@ -1,35 +1,52 @@
 package org.driveRental;
 
+/**
+ * Represents the pricing details of a vehicle in the rental system.
+ */
 public class Pricing {
-    private String ratePerDay;
-    private String ratePerWeek;
-    private String ratePerMonth;
+    private double ratePerDay;
+    private double ratePerWeek;
+    private double ratePerMonth;
     private String currency;
-    private String costPerExtraMile;
-    private String costPerExtraKm;
-    private String securityDeposit;
+    private double costPerExtraMile;
+    private double costPerExtraKm;
+    private double securityDeposit;
 
-    public String getRatePerWeek() {
+    public Pricing(double ratePerDay, double ratePerWeek, double ratePerMonth, String currency,
+                   double costPerExtraMile, double costPerExtraKm, double securityDeposit) {
+        this.ratePerDay = ratePerDay;
+        this.ratePerWeek = ratePerWeek;
+        this.ratePerMonth = ratePerMonth;
+        this.currency = currency;
+        this.costPerExtraMile = costPerExtraMile;
+        this.costPerExtraKm = costPerExtraKm;
+        this.securityDeposit = securityDeposit;
+    }
+
+    public Pricing() {
+    }
+
+    public double getRatePerWeek() {
         return ratePerWeek;
     }
 
-    public void setRatePerWeek(String ratePerWeek) {
+    public void setRatePerWeek(double ratePerWeek) {
         this.ratePerWeek = ratePerWeek;
     }
 
-    public String getRatePerDay() {
+    public double getRatePerDay() {
         return ratePerDay;
     }
 
-    public void setRatePerDay(String ratePerDay) {
+    public void setRatePerDay(double ratePerDay) {
         this.ratePerDay = ratePerDay;
     }
 
-    public String getRatePerMonth() {
+    public double getRatePerMonth() {
         return ratePerMonth;
     }
 
-    public void setRatePerMonth(String ratePerMonth) {
+    public void setRatePerMonth(double ratePerMonth) {
         this.ratePerMonth = ratePerMonth;
     }
 
@@ -41,27 +58,27 @@ public class Pricing {
         this.currency = currency;
     }
 
-    public String getCostPerExtraMile() {
+    public double getCostPerExtraMile() {
         return costPerExtraMile;
     }
 
-    public void setCostPerExtraMile(String costPerExtraMile) {
+    public void setCostPerExtraMile(double costPerExtraMile) {
         this.costPerExtraMile = costPerExtraMile;
     }
 
-    public String getSecurityDeposit() {
+    public double getSecurityDeposit() {
         return securityDeposit;
     }
 
-    public void setSecurityDeposit(String securityDeposit) {
+    public void setSecurityDeposit(double securityDeposit) {
         this.securityDeposit = securityDeposit;
     }
 
-    public String getCostPerExtraKm() {
+    public double getCostPerExtraKm() {
         return costPerExtraKm;
     }
 
-    public void setCostPerExtraKm(String costPerExtraKm) {
+    public void setCostPerExtraKm(double costPerExtraKm) {
         this.costPerExtraKm = costPerExtraKm;
     }
 }
